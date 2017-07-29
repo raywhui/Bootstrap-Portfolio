@@ -1,0 +1,193 @@
+body{
+  background-image:url(../images/concrete_seamless.png);
+}
+
+.arial-text{
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.about-text{
+  padding:0px 20px;
+  font-size: 18px;
+  color:#777777;
+  line-height: 200%;
+}
+
+.header{
+  font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+
+.navbar-top{
+  background:#ffffff;
+  border-bottom: solid 2px #cccccc;
+  position:relative;
+}
+
+#bootstrap-override .navbar-brand{
+  position:relative;
+  width: 274px;
+  font-size: 36px;
+  background: #4aaaa5;
+  color:white;
+  padding:35px 25px 55px 25px;
+  z-index: 1
+}
+
+.navbar-right{
+  text-decoration:none; 
+  font-size: 18px; 
+  float:none!important;
+  text-align: center;
+  margin-top:35px;
+}
+
+a{
+  color:#777777;
+}
+
+
+#bootstrap-override .panel-heading{
+	background:white;
+  	color:#4aaaa5;
+	font-size:36px;
+	font-weight:700;
+	padding:10px 0 30px 0px;
+	border-bottom: 4px solid #dddddd;
+	margin:20px 20px 0px 20px;
+}
+
+.panel{
+	margin-top: 40px
+}
+
+.thumbnail{
+	float:left;
+	margin-top: 10px;
+}
+
+#bootstrap-override .connect{
+  font-size: 24px;
+}
+
+.icons{
+  margin-left: 5px;
+}
+
+.linkedin{
+	margin:0 5px;
+}
+
+.navbar-fixed-bottom{
+	text-align: center;
+	background: #666666;
+	color:#b3b3b3;
+	padding:20px;
+	font-size: 16px;
+	border-top:8px solid #4aaaa5;
+	z-index: 2;
+}
+
+.empty-space-about{
+	padding: 40px
+}
+
+
+
+.in-image{
+  font-size: 20px;
+  padding:20px;
+  text-align: center;
+  position:absolute;
+  bottom:20%;
+  width:89.5%;
+  z-index:1;
+  background-color: #4aaaa5;
+  color:white;
+}
+
+.input{
+  width: 100%;
+  margin: 10px 0 15px 0;
+  padding: 10px;
+  border:1px solid #cccccc;
+}
+
+.message-input{
+  width: 100%;
+  height: 250px;
+  padding:10px;
+  border:1px solid #cccccc;
+  margin: 10px 0 15px 0;
+  resize:vertical;
+}
+
+.button{
+  background-color:#4aaaa5;
+  font-size: 18px;
+  border: none;
+  color: white;
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.contact-body{
+  padding: 21px;
+  font-size: 18px;
+}
+
+.input::placeholder{
+  color:#cccccc;
+  font-size:16px;
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1200px){
+  #bootstrap-override .in-image{
+  	width:93.5%;
+  }
+}
+
+
+
+@media only screen and (max-width: 991px) {
+  #bootstrap-override .navbar-brand{
+  	width: 750px;
+    text-align: center;
+  }
+
+  .navbar-right{
+  	margin: 20px 0 20px 40px;
+  }
+
+  #bootstrap-override .in-image{
+  	width:88.8%;
+  }
+
+
+@media only screen and (max-width: 767px) {
+  #bootstrap-override .navbar-brand{
+  	width: 100%;
+    text-align: center;
+    z-index:2;
+  }
+  
+  #bootstrap-override .in-image{
+  	width:94.4%;
+  }
+
+  .img-fluid{
+  	width:718px;
+  	height:auto;
+  	right:0;
+  	left:0;
+  }
+}
+
